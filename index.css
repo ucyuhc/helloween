@@ -13,5 +13,37 @@ background-position: bottom;
 #root img{
     width: 150px;
     height: 150px;
-    
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+
+    animation-name: ghost;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes ghost {
+    0%{
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 50%;
+        left: calc(100% - 150px);
+    }
+
+50% {
+
+    top: 50%;
+    bottom: calc(100% - 300px);
+}
+100% {
+    top: 0;
+    left: 0;
+}
+
+
+
+}
+
