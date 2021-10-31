@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+#root{
+    width: 100vw;
+    height: 100vh;
+background-image: url(./images/kisspng-haunted-house-download-clip-art-13th-gate-haunted-house-5b44b29b1a9708.3425819615312288271089.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+}
+
+#root img{
+    width: 150px;
+    height: 150px;
+    
+}
